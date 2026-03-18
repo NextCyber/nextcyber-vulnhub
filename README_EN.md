@@ -1,5 +1,7 @@
 # 🔥 NextCyber VulnHub
 
+> [中文文档](README.md)
+
 <div align="center">
 
 **Making Cybersecurity Learning Easy!**
