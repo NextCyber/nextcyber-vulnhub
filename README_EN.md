@@ -17,15 +17,15 @@
 
 **NextCyber VulnHub** is a curated collection of CVE vulnerability reproduction documents, maintained by the [NextCyber Platform](https://www.nextcyber.cn) team.
 
-> 🎯 **Designed for beginners** — every document is written to be readable, learnable, and hands-on.
+> 🎯 **Designed for beginners** — every document is written to be clear, well-structured, and hands-on.
 
 Each reproduction document includes:
 
-- ✅ Vulnerability background and affected scope
+- ✅ Vulnerability background and impact scope
 - ✅ Step-by-step lab environment setup
 - ✅ Complete reproduction walkthrough (screenshots + commands)
 - ✅ Remediation advice and defensive measures
-- ✅ Companion lab link (practice online at NextCyber Platform)
+- ✅ Companion hands-on lab available on the NextCyber Platform
 
 ---
 
@@ -35,7 +35,7 @@ Each reproduction document includes:
 
 | CVE ID | Component | Summary | Difficulty | Docs |
 |--------|-----------|---------|------------|------|
-| CVE-2025-55182 | React Server Components | RSC deserialization leading to RCE | ⭐⭐⭐ | [View](./react/) |
+| CVE-2025-55182 | React Server Components | React Server Components deserialization RCE | ⭐⭐⭐ | [View](./react/) |
 | CVE-2015-5254 | Apache ActiveMQ | JMS `ObjectMessage` deserialization RCE | ⭐⭐ | [View](./activemq/CVE-2015-5254/) |
 | CVE-2016-3088 | Apache ActiveMQ | `fileserver` arbitrary file write → RCE | ⭐⭐ | [View](./activemq/CVE-2016-3088/) |
 | CVE-2022-41678 | Apache ActiveMQ | Jolokia MBean arbitrary file write → RCE | ⭐⭐⭐ | [View](./activemq/CVE-2022-41678/) |
@@ -59,7 +59,7 @@ Each reproduction document includes:
 
 ```
 nextcyber-vulnhub/
-├── README.md              # Chinese introduction (this repo's homepage)
+├── README_CN.md           # Chinese introduction
 ├── README_EN.md           # English introduction
 ├── react/                 # React vulnerabilities
 │   └── CVE-2025-55182/
