@@ -145,7 +145,7 @@ cd nextcyber-vulnhub/activemq/CVE-2023-46604
 
 - 🏠 [NextCyber 官网](https://www.nextcyber.cn)
 - 🎮 [在线靶场](https://app.nextcyber.cn)
-- 📬 联系我们：contact@nextcyber.cn
+- 📬 联系我们：info@nextcyber.ai
 
 ---
 
