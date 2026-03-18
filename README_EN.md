@@ -156,7 +156,7 @@ Each reproduction document should follow this structure:
 
 - 🏠 [NextCyber Website](https://www.nextcyber.cn)
 - 🎮 [Online Lab Platform](https://app.nextcyber.cn)
-- 📬 Contact us: contact@nextcyber.cn
+- 📬 Contact us: info@nextcyber.ai
 
 ---
 
