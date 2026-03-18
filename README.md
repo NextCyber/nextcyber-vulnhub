@@ -35,6 +35,10 @@
 | CVE ID | 影响组件 | 漏洞简介 | 难度 | 文档 |
 |--------|---------|---------|------|------|
 | CVE-2025-55182 | React Server Components | RSC 反序列化导致 RCE | ⭐⭐⭐ | [查看](./react/) |
+| CVE-2015-5254 | Apache ActiveMQ | JMS ObjectMessage 反序列化 RCE | ⭐⭐ | [查看](./activemq/CVE-2015-5254/) |
+| CVE-2016-3088 | Apache ActiveMQ | fileserver 任意文件写入 RCE | ⭐⭐ | [查看](./activemq/CVE-2016-3088/) |
+| CVE-2022-41678 | Apache ActiveMQ | Jolokia 后台 MBean 任意文件写入 RCE | ⭐⭐⭐ | [查看](./activemq/CVE-2022-41678/) |
+| CVE-2023-46604 | Apache ActiveMQ | OpenWire 协议反序列化 RCE（严重） | ⭐⭐ | [查看](./activemq/CVE-2023-46604/) |
 
 ### 🟠 SQL 注入（持续更新）
 
@@ -54,15 +58,24 @@
 
 ```
 nextcyber-vulnhub/
-├── README.md               # 本文件（漏洞总索引）
-├── react/                  # React 系列漏洞
+├── README.md                    # 本文件（漏洞总索引）
+├── react/                       # React 系列漏洞
 │   └── CVE-2025-55182/
-│       ├── README.md       # 复现文档
-│       └── poc/            # PoC 代码（仅供学习）
-├── apache/                 # Apache 系列（待更新）
-├── nginx/                  # Nginx 系列（待更新）
-├── wordpress/              # WordPress 系列（待更新）
-└── CONTRIBUTING.md         # 贡献指南
+│       ├── README.md            # 复现文档
+│       └── poc/                 # PoC 代码（仅供学习）
+├── activemq/                    # Apache ActiveMQ 系列漏洞
+│   ├── README.md                # ActiveMQ 漏洞索引
+│   ├── CVE-2015-5254/
+│   │   └── README.md            # 反序列化 RCE 复现文档
+│   ├── CVE-2016-3088/
+│   │   └── README.md            # 任意文件写入 RCE 复现文档
+│   ├── CVE-2022-41678/
+│   │   └── README.md            # Jolokia 后台 RCE 复现文档
+│   └── CVE-2023-46604/
+│       └── README.md            # OpenWire 反序列化 RCE 复现文档
+├── nginx/                       # Nginx 系列（待更新）
+├── wordpress/                   # WordPress 系列（待更新）
+└── CONTRIBUTING.md              # 贡献指南
 ```
 
 ---
@@ -83,7 +96,7 @@ nextcyber-vulnhub/
 git clone https://github.com/NextCyber/nextcyber-vulnhub.git
 
 # 进入对应漏洞目录
-cd nextcyber-vulnhub/react/CVE-2025-55182
+cd nextcyber-vulnhub/activemq/CVE-2023-46604
 
 # 阅读 README.md 按步骤搭建环境
 ```
@@ -124,7 +137,6 @@ cd nextcyber-vulnhub/react/CVE-2025-55182
 ## 漏洞复现
 ## 漏洞分析
 ## 修复建议
-## 参考链接
 ```
 
 ---
