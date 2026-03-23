@@ -1,6 +1,6 @@
 # Apereo CAS 4.1 反序列化命令执行漏洞
 
-> [英文文档](README_EN.md)
+> [English Documentation](README_EN.md)
 
 | 属性 | 详情 |
 |------|------|
