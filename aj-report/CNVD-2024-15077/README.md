@@ -1,6 +1,6 @@
 # AJ-Report 认证绕过与远程代码执行漏洞（CNVD-2024-15077）
 
-> [英文文档](README_EN.md)
+> [English Documentation](README_EN.md)
 
 | 属性 | 详情 |
 |------|------|
