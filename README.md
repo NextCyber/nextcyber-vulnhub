@@ -1,6 +1,6 @@
 # 🔥 NextCyber VulnHub
 
-> [英文文档](README_EN.md)
+> [English Documentation](README_EN.md)
 
 <div align="center">
 
