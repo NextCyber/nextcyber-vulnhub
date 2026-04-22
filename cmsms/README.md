@@ -1,19 +1,24 @@
-# CMS Made Simple (CMSMS)
+# CMS Made Simple 漏洞复现合集
 
 CMS Made Simple（CMSMS）是一个免费的开放源码内容管理系统，为开发人员、程序员和网站所有者提供基于网络的开发和管理功能。
 
+本目录收录了与 CMS Made Simple 相关的安全漏洞复现文档，涵盖 SQL 注入、服务器端模板注入（SSTI）等多种漏洞类型。
+
+---
+
 ## 漏洞列表
 
-| CVE编号 | 漏洞类型 | 危险等级 | 描述 |
-|---------|---------|---------|------|
-| CVE-2019-9053 | SQL注入 | 🔴 高危 | CMS Made Simple < 2.2.10 前台SQL注入漏洞 |
-| CVE-2021-26120 | SSTI | 🔴 高危 | 后台服务器端模板注入漏洞，可导致RCE |
+| CVE 编号 | 漏洞类型 | 影响版本 | 难度 | 文档 |
+|----------|---------|---------|------|------|
+| CVE-2019-9053 | SQL 注入 | CMSMS < 2.2.10 | ⭐⭐ | [查看](./CVE-2019-9053/README.md) |
+| CVE-2021-26120 | SSTI RCE | CMSMS <= 2.2.15 | ⭐⭐ | [查看](./CVE-2021-26120/README.md) |
 
-## 影响版本
+---
 
-- CMS Made Simple <= 2.2.15
+## 靶场练习
 
-## 参考链接
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/55) 在线实战演练上述漏洞。
 
-- [CMS Made Simple 官方网站](https://www.cmsmadesimple.org/)
-- [CMS Made Simple 下载](https://www.cmsmadesimple.org/downloads/cmsms/)
+---
+
+> ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
