@@ -11,7 +11,7 @@ CMS Made Simple（CMSMS）是一个免费的开放源码内容管理系统，为
 
 ## 影响版本
 
-- CMS Made Simple <= 2.2.9
+- CMS Made Simple <= 2.2.15
 
 ## 参考链接
 
