@@ -13,6 +13,8 @@ Django 是一个高级 Python Web 框架，鼓励快速开发和简洁实用的�
 | CVE-2017-12794 | Debug Page XSS | Django 1.11.0 - 1.11.4 | ⭐⭐ | [查看](./CVE-2017-12794/README.md) |
 | CVE-2018-14574 | 任意URL跳转 | Django < 2.0.8 | ⭐ | [查看](./CVE-2018-14574/README.md) |
 | CVE-2019-14234 | JSONField SQL注入 | Django 2.2.x < 2.2.4 | ⭐⭐⭐ | [查看](./CVE-2019-14234/README.md) |
+| CVE-2021-35042 | QuerySet.order_by SQL注入 | Django 3.2.x < 3.2.4 | ⭐⭐⭐ | [查看](./CVE-2021-35042/README.md) |
+| CVE-2022-34265 | Trunc/Extract SQL注入 | Django 3.2.x < 3.2.14 | ⭐⭐⭐ | [查看](./CVE-2022-34265/README.md) |
 
 ---
 
