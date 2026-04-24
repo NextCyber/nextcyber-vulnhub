@@ -10,7 +10,8 @@ Discuz 是流行的中文论坛软件系统之一，采用 PHP+MySQL 开发。�
 
 | 漏洞名称 | 漏洞类型 | 影响版本 | 难度 | 文档 |
 |----------|---------|---------|------|------|
-| Discuz 7.x/6.x 全局变量防御绕过导致代码执行 | 代码执行 | Discuz 7.x/6.x | ⭐⭐ | [查看](./CVE-xxxx-xxxx/README.md) |
+| Discuz 7.x/6.x 全局变量防御绕过导致代码执行 | 代码执行 | Discuz 7.x/6.x | ⭐⭐ | [查看](./global-variable-bypass/README.md) |
+| Discuz!X ≤3.4 任意文件删除漏洞 | 任意文件删除 | Discuz!X ≤3.4 | ⭐⭐ | [查看](./arbitrary-file-deletion/README.md) |
 
 ---
 
