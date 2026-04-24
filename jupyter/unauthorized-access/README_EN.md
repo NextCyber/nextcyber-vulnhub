@@ -25,7 +25,7 @@
 
 **1. Access Jupyter Notebook Web Interface**
 
-After the target starts, access `http://192.168.2.47:8888` to see the Jupyter Notebook `Web` management interface without being asked for a password:
+After the target starts, access `http://your-ip:8888` to see the Jupyter Notebook `Web` management interface without being asked for a password:
 
 ![Management Interface](https://static.nextcyber.cn/attachments/images/course/task/3557312608b74d4e8501180a49598d29.png)
 
