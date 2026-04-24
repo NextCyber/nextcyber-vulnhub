@@ -25,7 +25,7 @@
 
 **1. 访问 Jupyter Notebook 管理界面**
 
-运行后，访问 `http://192.168.2.47:8888` 将看到 Jupyter Notebook 的 `Web` 管理界面，并没有要求填写密码：
+运行后，访问 `http://your-ip:8888` 将看到 Jupyter Notebook 的 `Web` 管理界面，并没有要求填写密码：
 
 ![管理界面](https://static.nextcyber.cn/attachments/images/course/task/3557312608b74d4e8501180a49598d29.png)
 
