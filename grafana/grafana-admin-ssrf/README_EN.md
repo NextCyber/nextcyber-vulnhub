@@ -49,3 +49,10 @@ python grafana-ssrf.py -H http://your-ip:3000 -u http://example.interact.sh/atta
 As shown, our out-of-band platform successfully received the HTTP request:
 
 ![Out-of-Band Platform Received Request](https://static.nextcyber.cn/attachments/images/course/task/c573a4f3d95c497ab719f7b8b3da5b3e.png)
+
+
+---
+
+## Practice
+
+Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/83).
