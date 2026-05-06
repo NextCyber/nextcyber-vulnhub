@@ -16,7 +16,7 @@ Bash（Bourne Again Shell）是 Unix 系统和 Linux 系统的一种 Shell（命
 
 ## 靶场练习
 
-前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/42) 在线实战演练上述漏洞。
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/50) 在线实战演练上述漏洞。
 
 ---
 
