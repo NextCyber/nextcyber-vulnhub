@@ -111,3 +111,10 @@ When Discuz!X processes user profile data, it directly stores the user-input `bi
 2. Strictly validate and filter user input paths
 3. Restrict the range of files that can be deleted
 4. Use whitelist mechanisms to restrict file operations
+
+
+---
+
+## Practice
+
+Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/60).
