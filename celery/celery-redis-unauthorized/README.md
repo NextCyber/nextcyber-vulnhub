@@ -65,3 +65,10 @@ r.lpush('celery',json.dumps(task_dict))
 2. **Celery 安全升级**：
    - 升级 Celery 到 4.0 或更高版本
    - 4.0+ 版本默认使用 JSON 序列化，安全性更高
+
+
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/52) 在线实战演练此漏洞。
