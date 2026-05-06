@@ -3,6 +3,7 @@
 | CVE 编号 | 漏洞名称 | 影响版本 | 漏洞类型 | 危险等级 |
 |----------|----------|----------|----------|----------|
 | CVE-2021-43798 | Grafana 8.x 插件模块目录穿越漏洞 | Grafana 8.x | 插件模块目录穿越 | 🔴 高危 |
+| Grafana Admin SSRF | Grafana 管理后台 SSRF | Grafana 8.5.4 | 服务器端请求伪造 | 🔴 高危 |
 
 ## 免责声明
 
@@ -11,3 +12,4 @@
 ## 靶场练习
 
 - [Grafana 8.x 插件模块目录穿越漏洞（CVE-2021-43798）](https://app.nextcyber.cn/courses/83/tasks/726)
+- [Grafana 管理后台 SSRF](https://app.nextcyber.cn/courses/83/tasks/1331)
