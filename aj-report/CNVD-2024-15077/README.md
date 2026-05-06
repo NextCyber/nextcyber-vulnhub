@@ -91,3 +91,10 @@ Content-Length: 339
 3. **禁用脚本引擎中的危险 Java 类**：对 `validationRules` 字段的脚本执行环境进行沙箱限制，禁止调用 `ProcessBuilder`、`Runtime` 等高危 Java 类。
 4. **部署 WAF**：在应用前置部署 Web 应用防火墙，检测并拦截包含 `;swagger-ui/` 等路径混淆特征的请求。
 5. **最小权限原则**：以非 `root` 用户运行 AJ-Report 服务，降低漏洞被利用后的影响范围。
+
+
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/44) 在线实战演练此漏洞。
