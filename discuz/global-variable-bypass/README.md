@@ -66,3 +66,10 @@ Connection: close
 2. 避免使用 `$GLOBALS` 全局变量
 3. 对用户输入进行严格的过滤和验证
 4. 使用白名单机制限制可执行的代码
+
+
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/60) 在线实战演练此漏洞。
