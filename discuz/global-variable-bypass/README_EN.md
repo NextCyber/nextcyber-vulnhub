@@ -66,3 +66,10 @@ In PHP 5.3.x versions, `request_order` defaults to "GP", meaning `$_REQUEST` no 
 2. Avoid using `$GLOBALS` global variables
 3. Perform strict filtering and validation on user input
 4. Use whitelist mechanisms to restrict executable code
+
+
+---
+
+## Practice
+
+Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/60).
