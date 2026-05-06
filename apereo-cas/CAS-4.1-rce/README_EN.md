@@ -111,3 +111,10 @@ After a brief delay, the `nc` listener on the attacker machine receives the reve
 3. **Restrict network access**: Limit access to the CAS service port (8080/443) to trusted internal IP ranges; block all direct public internet access to the login endpoint.
 4. **Remove or upgrade vulnerable deserialization libraries**: Remove or upgrade `commons-collections` and other dependencies with known exploit gadget chains to reduce the deserialization attack surface.
 5. **Deploy a WAF**: Place a Web Application Firewall in front of the CAS login endpoint to detect and block requests where the `execution` parameter carries anomalous serialized data.
+
+
+---
+
+## Practice
+
+Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/46).
