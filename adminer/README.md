@@ -15,7 +15,7 @@ Adminer 是一个 PHP 编写的开源数据库管理工具，支持 MySQL、Mari
 
 ## 靶场练习
 
-前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/77) 在线实战演练上述漏洞。
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/42) 在线实战演练上述漏洞。
 
 ---
 
