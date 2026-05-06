@@ -65,3 +65,10 @@ r.lpush('celery',json.dumps(task_dict))
 2. **Celery Security Upgrade**:
    - Upgrade Celery to version 4.0 or higher
    - Version 4.0+ uses JSON serialization by default, which is more secure
+
+
+---
+
+## Practice
+
+Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/52).
