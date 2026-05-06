@@ -49,3 +49,10 @@ python grafana-ssrf.py -H http://your-ip:3000 -u http://example.interact.sh/atta
 可见，我们的反连平台已成功收到了 HTTP 请求：
 
 ![反连平台接收请求](https://static.nextcyber.cn/attachments/images/course/task/c573a4f3d95c497ab719f7b8b3da5b3e.png)
+
+
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/83) 在线实战演练此漏洞。
