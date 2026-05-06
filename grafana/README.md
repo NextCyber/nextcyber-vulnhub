@@ -1,15 +1,22 @@
-# Grafana 漏洞概述
+# Grafana 漏洞复现合集
 
-| CVE 编号 | 漏洞名称 | 影响版本 | 漏洞类型 | 危险等级 |
-|----------|----------|----------|----------|----------|
-| CVE-2021-43798 | Grafana 8.x 插件模块目录穿越漏洞 | Grafana 8.x | 插件模块目录穿越 | 🔴 高危 |
-| Grafana Admin SSRF | Grafana 管理后台 SSRF | Grafana 8.5.4 | 服务器端请求伪造 | 🔴 高危 |
+Grafana 是一个开源的度量分析与可视化套件，支持多种数据源的监控数据可视化，广泛应用于系统监控和指标分析。本目录收录了与 Grafana 相关的漏洞复现文档，涵盖目录穿越、SSRF 等多种漏洞类型。
 
-## 免责声明
+---
 
-本靶场仅供学习交流使用，严禁用于非法渗透测试及其他违法违规活动。由于读者的任何违法使用行为所导致的法律责任，本项目概不负责。
+## 漏洞列表
+
+| CVE 编号 | 漏洞类型 | 影响版本 | 难度 | 文档 |
+|---------|---------|---------|------|------|
+| CVE-2021-43798 | 插件模块目录穿越 | Grafana 8.x | ⭐⭐ | [查看](./CVE-2021-43798/README.md) |
+| Grafana Admin SSRF | 管理后台 SSRF | Grafana 8.5.4 | ⭐⭐ | [查看](./grafana-admin-ssrf/README.md) |
+
+---
 
 ## 靶场练习
 
-- [Grafana 8.x 插件模块目录穿越漏洞（CVE-2021-43798）](https://app.nextcyber.cn/courses/83/tasks/726)
-- [Grafana 管理后台 SSRF](https://app.nextcyber.cn/courses/83/tasks/1331)
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/83) 在线实战演练上述漏洞。
+
+---
+
+> ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
