@@ -91,3 +91,10 @@ Send the modified request in `Burp Suite`. The `nc` listener on the attacker mac
 3. **Sandbox the script engine**: Apply sandbox restrictions to the `validationRules` execution environment to block access to dangerous Java classes such as `ProcessBuilder` and `Runtime`.
 4. **Deploy a WAF**: Place a Web Application Firewall in front of the application to detect and block requests containing path-confusion patterns such as `;swagger-ui/`.
 5. **Principle of least privilege**: Run the AJ-Report service as a non-`root` user to limit the blast radius if the vulnerability is exploited.
+
+
+---
+
+## Practice
+
+Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/44).
