@@ -54,3 +54,9 @@ Jupyter Notebook starts a web service by default. If the administrator does not 
 3. Restrict access to local only (`c.NotebookApp.ip = 'localhost'`)
 4. Use SSL/TLS encryption for communications
 5. Configure firewall rules to restrict access sources
+
+---
+
+## Practice Lab
+
+Practice this vulnerability online at [NextCyber Platform](https://app.nextcyber.cn/courses/100).
