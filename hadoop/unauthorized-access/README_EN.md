@@ -119,8 +119,7 @@ launch_container.sh
 tmp
 ```
 
-> [!IMPORTANT]
-> ✅ Exploitation successful — obtained a **root** shell.
+Exploitation successful — obtained a **root** shell.
 
 ---
 
