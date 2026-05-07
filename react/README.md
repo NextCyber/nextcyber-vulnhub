@@ -16,7 +16,7 @@ React 是 Facebook 开发的用于构建用户界面的 JavaScript 库。React 2
 
 ## 靶场练习
 
-前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/51) 在线实战演练上述漏洞。
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/289)) 在线实战演练上述漏洞。
 
 ---
 
