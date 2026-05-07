@@ -119,8 +119,7 @@ launch_container.sh
 tmp
 ```
 
-> [!IMPORTANT]
-> ✅ 漏洞利用成功，拿到了 **root** 用户的 shell。
+漏洞利用成功，拿到了 **root** 用户的 shell。
 
 ---
 
