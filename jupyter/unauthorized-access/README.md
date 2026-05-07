@@ -54,3 +54,9 @@ Jupyter Notebook 默认情况下会开启一个 Web 服务，如果管理员没�
 3. 限制仅允许本地访问（`c.NotebookApp.ip = 'localhost'`）
 4. 使用 SSL/TLS 加密通信
 5. 配置防火墙规则限制访问来源
+
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/100) 在线实战演练此漏洞。
