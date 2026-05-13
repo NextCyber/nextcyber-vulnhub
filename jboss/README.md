@@ -8,6 +8,7 @@
 |--------|----------|----------|------|------|
 | CVE-2017-12149 | Java反序列化 | JBoss 5.x/6.x | ⭐⭐⭐ | [CVE-2017-12149](./CVE-2017-12149/README.md) |
 | CVE-2017-7504 | Java反序列化 | JBoss 4.x | ⭐⭐⭐ | [CVE-2017-7504](./CVE-2017-7504/README.md) |
+| JMXInvokerServlet | Java反序列化 | JBoss 5.x/6.x | ⭐⭐⭐ | [JMXInvokerServlet](./jmxinvoker-servlet/README.md) |
 
 ## 靶场练习
 
