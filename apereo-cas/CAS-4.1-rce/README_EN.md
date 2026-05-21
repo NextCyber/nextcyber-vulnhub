@@ -118,3 +118,7 @@ After a brief delay, the `nc` listener on the attacker machine receives the reve
 ## Practice
 
 Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/46).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
