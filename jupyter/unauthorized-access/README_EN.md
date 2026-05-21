@@ -60,3 +60,7 @@ Jupyter Notebook starts a web service by default. If the administrator does not 
 ## Practice Lab
 
 Practice this vulnerability online at [NextCyber Platform](https://app.nextcyber.cn/courses/100).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
