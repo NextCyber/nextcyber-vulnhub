@@ -16,7 +16,7 @@
 
 ## Exploitation
 
-After the target machine starts, access **http://your-ip:8080** to view the **demo** page:
+After the target machine starts, access `http://your-ip:8080` to view the **demo** page:
 
 ![demo page](https://static.nextcyber.cn/attachments/images/course/task/31efa1c0d979489598da50007f6256f5.png)
 
