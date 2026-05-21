@@ -56,3 +56,7 @@ As shown, our out-of-band platform successfully received the HTTP request:
 ## Practice
 
 Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/83).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
