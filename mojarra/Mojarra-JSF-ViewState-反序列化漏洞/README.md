@@ -66,3 +66,12 @@ j_idt6=j_idt6&j_idt6%3Aj_idt7=1&j_idt6%3Aj_idt8=Hello&javax.faces.ViewState=payl
 ```
 
 ![反弹shell](https://static.nextcyber.cn/attachments/images/course/task/a7c153cae47c4ec3a5248f2ae1757952.png)
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/114) 在线实战演练此漏洞。
+
+---
+
+> ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
