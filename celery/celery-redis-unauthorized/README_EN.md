@@ -72,3 +72,7 @@ r.lpush('celery',json.dumps(task_dict))
 ## Practice
 
 Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/52).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
