@@ -60,3 +60,7 @@ Jupyter Notebook 默认情况下会开启一个 Web 服务，如果管理员没�
 ## 靶场练习
 
 前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/100) 在线实战演练此漏洞。
+
+---
+
+> ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
