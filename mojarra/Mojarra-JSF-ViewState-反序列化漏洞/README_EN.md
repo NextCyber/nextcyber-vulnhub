@@ -66,3 +66,12 @@ j_idt6=j_idt6&j_idt6%3Aj_idt7=1&j_idt6%3Aj_idt8=Hello&javax.faces.ViewState=payl
 ```
 
 ![Reverse shell](https://static.nextcyber.cn/attachments/images/course/task/a7c153cae47c4ec3a5248f2ae1757952.png)
+---
+
+## Lab Practice
+
+Practice this vulnerability on [NextCyber Lab](https://app.nextcyber.cn/courses/114).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
