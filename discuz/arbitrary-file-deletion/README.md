@@ -118,3 +118,7 @@ Discuz!X 在处理用户个人资料时，将用户输入的 `birthprovince` 字
 ## 靶场练习
 
 前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/60) 在线实战演练此漏洞。
+
+---
+
+> ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
