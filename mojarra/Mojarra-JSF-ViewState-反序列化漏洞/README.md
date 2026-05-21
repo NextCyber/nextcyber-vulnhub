@@ -16,7 +16,7 @@
 
 ## 漏洞复现
 
-靶机启动后，访问 'http://your-ip:8080' 即可查看到 **demo** 页面：
+靶机启动后，访问 `http://your-ip:8080` 即可查看到 **demo** 页面：
 
 ![demo页面](https://static.nextcyber.cn/attachments/images/course/task/31efa1c0d979489598da50007f6256f5.png)
 
