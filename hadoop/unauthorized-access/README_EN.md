@@ -126,3 +126,7 @@ Exploitation successful — obtained a **root** shell.
 ## Practice Lab
 
 Practice this vulnerability online at [NextCyber Platform](https://app.nextcyber.cn/courses/85).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
