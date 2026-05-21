@@ -73,3 +73,7 @@ In PHP 5.3.x versions, `request_order` defaults to "GP", meaning `$_REQUEST` no 
 ## Practice
 
 Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/60).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
