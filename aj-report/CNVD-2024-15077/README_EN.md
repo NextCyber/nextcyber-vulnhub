@@ -98,3 +98,7 @@ Send the modified request in `Burp Suite`. The `nc` listener on the attacker mac
 ## Practice
 
 Practice this vulnerability online at [NextCyber Academy](https://app.nextcyber.cn/courses/44).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
