@@ -65,3 +65,12 @@ The first execution may not succeed. Run it again, then enter `r` to obtain a re
 ![Image](https://static.nextcyber.cn/attachments/images/course/task/cc264eabf53747ffb8da50af6d7b5325.png)
 
 The reverse `shell` is successfully established.
+---
+
+## Practice Lab
+
+Practice this vulnerability on [NextCyber Lab](https://app.nextcyber.cn/courses/139).
+
+---
+
+> ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
