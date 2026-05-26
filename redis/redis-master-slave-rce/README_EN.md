@@ -26,7 +26,7 @@ The unauthorized access vulnerability is present. The target machine is running 
 
 ## Exploitation
 
-We will use [this POC](https://github.com/n0b0dyCN/redis-rogue-server) to execute commands. Download the tool:
+We will use this [POC](https://github.com/n0b0dyCN/redis-rogue-server) to execute commands. Download the tool:
 
 ```
 git clone https://github.com/n0b0dyCN/redis-rogue-server.git
