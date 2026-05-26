@@ -65,3 +65,12 @@ ______         _ _      ______                         _____                    
 ![图片](https://static.nextcyber.cn/attachments/images/course/task/cc264eabf53747ffb8da50af6d7b5325.png)
 
 反弹`shell`成功。
+---
+
+## 靶场练习
+
+前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/139) 在线实战演练此漏洞。
+
+---
+
+> ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
