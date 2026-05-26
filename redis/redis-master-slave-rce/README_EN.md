@@ -65,6 +65,7 @@ The first execution may not succeed. Run it again, then enter `r` to obtain a re
 ![Image](https://static.nextcyber.cn/attachments/images/course/task/cc264eabf53747ffb8da50af6d7b5325.png)
 
 The reverse `shell` is successfully established.
+
 ---
 
 ## Practice Lab
