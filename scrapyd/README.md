@@ -8,9 +8,9 @@ scrapyd 是爬虫框架 scrapy 提供的云服务，用户可以部署自己的 
 
 ## 漏洞列表
 
-| CVE 编号 | 漏洞类型 | 影响版本 | 难度 | 文档 |
+| 漏洞名称 | 漏洞类型 | 影响版本 | 难度 | 文档 |
 |----------|---------|---------|------|------|
-| CVE-XXXX-XXXX | 未授权RCE | scrapyd 全版本 | ⭐⭐ | [查看](./CVE-XXXX-XXXX/README.md) |
+| scrapyd 未授权RCE漏洞 | 未授权RCE | scrapyd 全版本 | ⭐⭐ | [查看](./scrapyd%20未授权RCE漏洞/README.md) |
 
 ---
 
