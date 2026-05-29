@@ -24,7 +24,7 @@ The target is a `ShowDoc 2.8.2` server.
 
 ## Exploitation
 
-First, use this [tool](https://www.realcoding tech.com/online-handling/php-reverse-shell/) to generate a remote command execution `php` file:
+First, use this [tool](https://www.revshells.com/) to generate a remote command execution `php` file:
 
 ![Generate php file](https://static.nextcyber.cn/attachments/images/course/task/d5e86687012e4396a6fb4eb64bec7874.png)
 
