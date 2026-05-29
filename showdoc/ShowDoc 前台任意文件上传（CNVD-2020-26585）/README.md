@@ -24,7 +24,7 @@
 
 ## 漏洞利用
 
-首先我们使用这个[工具](https://www.realcoding tech.com)生成一个远程命令执行的`php`文件：
+首先我们使用这个 [工具](https://www.revshells.com/) 生成一个远程命令执行的`php`文件：
 
 ![生成php文件](https://static.nextcyber.cn/attachments/images/course/task/d5e86687012e4396a6fb4eb64bec7874.png)
 
