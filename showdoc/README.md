@@ -10,8 +10,8 @@ ShowDoc 是一个开源的在线共享文档工具，广泛用于团队协作和
 
 | CVE 编号 | 漏洞类型 | 影响版本 | 难度 | 文档 |
 |----------|---------|---------|------|------|
-| ShowDoc 3.2.5 SQL注入漏洞 | SQL注入 | ShowDoc <= 3.2.5 | ⭐⭐ | [查看](./ShowDoc 3.2.5 SQL注入漏洞/README.md) |
-| ShowDoc 前台任意文件上传（CNVD-2020-26585） | 任意文件上传 | Showdoc <= 2.8.6 | ⭐⭐ | [查看](./ShowDoc 前台任意文件上传（CNVD-2020-26585）/README.md) |
+| ShowDoc 3.2.5 SQL注入漏洞 | SQL注入 | ShowDoc <= 3.2.5 | ⭐⭐ | [查看](./ShowDoc3.2.5SQL注入漏洞/README.md) |
+| ShowDoc 前台任意文件上传（CNVD-2020-26585） | 任意文件上传 | Showdoc <= 2.8.6 | ⭐⭐ | [查看](./ShowDoc前台任意文件上传（CNVD-2020-26585）/README.md) |
 
 ---
 
