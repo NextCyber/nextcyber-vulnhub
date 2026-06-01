@@ -1,4 +1,4 @@
-# ShowDoc 前台任意文件上传（CNVD-2020-26585）
+# 前台任意文件上传（CNVD-2020-26585）
 
 > [English Documentation](README_EN.md)
 
