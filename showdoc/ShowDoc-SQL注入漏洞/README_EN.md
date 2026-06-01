@@ -218,12 +218,12 @@ if __name__ == '__main__':
     main()
 ```
 
----
+
 
 ## Practice Lab
 
 Practice this vulnerability online at [NextCyber Lab](https://app.nextcyber.cn/courses/148).
 
----
+
 
 > ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Do not use it for illegal activities.
