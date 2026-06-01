@@ -11,13 +11,13 @@
 | **Default Port** | 8983 |
 | **Vulnerability Link** | [NVD - CVE-2019-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-2019-xxxxx) |
 
----
+
 
 ## Overview
 
 `Apache Solr` is an open-source search server. When `Apache Solr` does not have authentication enabled, attackers can directly craft specific requests to enable certain configurations, ultimately causing `SSRF` or arbitrary file read.
 
----
+
 
 ## Reproduction
 
@@ -107,12 +107,12 @@ Content-Length: 1497
 
 Successfully read the `/etc/passwd` file.
 
----
+
 
 ##靶场练习
 
 前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/150) 在线实战演练上述漏洞。
 
----
+
 
 > ⚠️ **Disclaimer**: All content in this directory is for learning and research purposes only. Please do not use it for illegal purposes.
