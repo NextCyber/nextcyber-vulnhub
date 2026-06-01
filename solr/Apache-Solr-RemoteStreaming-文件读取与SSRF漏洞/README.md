@@ -11,13 +11,13 @@
 | **默认端口** | 8983 |
 | **漏洞链接** | [NVD - CVE-2019-xxxxx](https://nvd.nist.gov/vuln/detail/CVE-2019-xxxxx) |
 
----
+
 
 ## 漏洞概述
 
 `Apache Solr` 是一个开源的搜索服务器。在 `Apache Solr` 未开启认证的情况下，攻击者可直接构造特定请求开启特定配置，并最终造成 `SSRF` 或任意文件读取。
 
----
+
 
 ## 漏洞复现
 
@@ -107,12 +107,12 @@ Content-Length: 1497
 
 成功读取 `/etc/passwd` 文件。
 
----
+
 
 ## 靶场练习
 
 前往 [NextCyber 靶场](https://app.nextcyber.cn/courses/150) 在线实战演练上述漏洞。
 
----
+
 
 > ⚠️ **免责声明**：本目录所有内容仅供学习研究使用，请勿用于非法用途。
