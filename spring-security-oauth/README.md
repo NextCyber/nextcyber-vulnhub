@@ -2,7 +2,7 @@
 
 Spring Security OAuth 是为 Spring 框架提供安全认证支持的模块，在企业级应用中有广泛部署。
 
-本目录收录了与 Spring Security OAuth 相关的经典高危漏洞复现文档，涵盖 SpEL 表达式注入、远程命令执行等多种漏洞类型。
+本目录收录了与 Spring Security OAuth 相关的经典高危漏洞复现文档，涵盖 SpEL 表达式注入、远程代码执行等多种漏洞类型。
 
 ---
 
