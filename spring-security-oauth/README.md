@@ -11,6 +11,7 @@ Spring Security OAuth 是为 Spring 框架提供安全认证支持的模块，�
 | CVE 编号 | 漏洞类型 | 影响版本 | 难度 | 文档 |
 |----------|---------|---------|------|------|
 | CVE-2016-4977 | SpEL 表达式注入 RCE | Spring Security OAuth 2.0.x ~ 2.0.9 | ⭐⭐ | [查看](./CVE-2016-4977/README.md) |
+| CVE-2017-4971 | SpEL 表达式注入 RCE | Spring WebFlow 2.4.x | ⭐⭐ | [查看](./CVE-2017-4971/README.md) |
 
 ---
 
