@@ -1,8 +1,6 @@
-# Spring Security OAuth 漏洞复现合集
+# Spring 漏洞复现合集
 
-Spring Security OAuth 是为 Spring 框架提供安全认证支持的模块，在企业级应用中有广泛部署。
-
-本目录收录了与 Spring Security OAuth 相关的经典高危漏洞复现文档，涵盖 SpEL 表达式注入、远程代码执行等多种漏洞类型。
+Spring Framework 是一个开源的 Java EE 全栈式应用程序框架，提供了一系列组件和扩展功能。本目录收录了与 Spring 框架相关的经典高危漏洞复现文档，涵盖 SpEL 表达式注入、远程代码执行、消息队列攻击等多种漏洞类型。
 
 ---
 
@@ -13,6 +11,7 @@ Spring Security OAuth 是为 Spring 框架提供安全认证支持的模块，�
 | CVE-2016-4977 | SpEL 表达式注入 RCE | Spring Security OAuth 2.0.x ~ 2.0.9 | ⭐⭐ | [查看](./CVE-2016-4977/README.md) |
 | CVE-2017-4971 | SpEL 表达式注入 RCE | Spring WebFlow 2.4.x | ⭐⭐ | [查看](./CVE-2017-4971/README.md) |
 | CVE-2017-8046 | SpEL 表达式注入 RCE | Spring Data REST < 3.0.1 | ⭐⭐ | [查看](./CVE-2017-8046/README.md) |
+| CVE-2018-1270 | SpEL 表达式注入 RCE | Spring Messaging < 5.0.5 | ⭐⭐ | [查看](./CVE-2018-1270/README.md) |
 
 ---
 
