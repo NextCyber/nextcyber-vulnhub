@@ -12,6 +12,7 @@ Spring Framework 是一个开源的 Java EE 全栈式应用程序框架，提供
 | CVE-2017-4971 | SpEL 表达式注入 RCE | Spring WebFlow 2.4.x | ⭐⭐ | [查看](./CVE-2017-4971/README.md) |
 | CVE-2017-8046 | SpEL 表达式注入 RCE | Spring Data REST < 3.0.1 | ⭐⭐ | [查看](./CVE-2017-8046/README.md) |
 | CVE-2018-1270 | SpEL 表达式注入 RCE | Spring Messaging < 5.0.5 | ⭐⭐ | [查看](./CVE-2018-1270/README.md) |
+| CVE-2018-1273 | SpEL 表达式注入 RCE | Spring Data Commons 2.0.5 及以前 | ⭐⭐ | [查看](./CVE-2018-1273/README.md) |
 
 ---
 
