@@ -16,6 +16,7 @@ Spring Framework 是一个开源的 Java EE 全栈式应用程序框架，提供
 | CVE-2022-22947 | SpEL 表达式注入命令执行 | Spring Cloud Gateway 3.1.0 及 3.0.6 及以前 | ⭐⭐ | [查看](./CVE-2022-22947/README.md) |
 | CVE-2022-22963 | SpEL 表达式注入 RCE | Spring Cloud Function 3.1.0 ~ 3.2.2 | ⭐⭐ | [查看](./CVE-2022-22963/README.md) |
 | CVE-2022-22965 | 数据绑定 RCE | Spring Framework 5.3.0 ~ 5.3.17 | ⭐⭐ | [查看](./CVE-2022-22965/README.md) |
+| CVE-2022-22978 | 认证绕过 | Spring Security 5.5.6、5.6.3 及更早版本 | ⭐⭐ | [查看](./CVE-2022-22978/README.md) |
 
 ---
 
