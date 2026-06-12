@@ -10,7 +10,7 @@ Weblogic 是 Oracle 公司开发的一款 Java EE 应用服务器，广泛用于
 |----------|---------|---------|------|------|
 | CVE-2017-10271 | XMLDecoder 反序列化漏洞 | Weblogic < 10.3.6 | ⭐⭐ | [查看](./CVE-2017-10271/README.md) |
 | CVE-2018-2628 | WLS Core Components 反序列化命令执行漏洞 | Weblogic 10.3.6.0 等 | ⭐⭐ | [查看](./CVE-2018-2628/README.md) |
-| CVE-2018-2894 | 任意文件上传漏洞 | Weblogic 12.2.1.3.0 等 | ⭐⭐ | [查看](./Weblogic 任意文件上传漏洞（CVE-2018-2894）/README.md) |
+| CVE-2018-2894 | 任意文件上传漏洞 | Weblogic 12.2.1.3.0 等 | ⭐⭐ | [查看](./Weblogic任意文件上传漏洞（CVE-2018-2894）/README.md) |
 | CVE-2020-14882 | 管理控制台未授权远程命令执行漏洞 | Weblogic 10.3.6.0 等 | ⭐⭐ | [查看](./CVE-2020-14882/README.md) |
 
 ---
