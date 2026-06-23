@@ -12,6 +12,12 @@
 
 `Oracle WebLogic Server` is a Java-based enterprise application server. There exists a Server-Side Request Forgery (SSRF) vulnerability in the UDDI Explorer component of WebLogic. Attackers can exploit this vulnerability to send arbitrary HTTP requests, potentially enabling internal network reconnaissance or attacking vulnerable services such as Redis.
 
+## References
+
+- [VulHub - Weblogic SSRF](https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf)
+- [What is Server-Side Request Forgery (SSRF)?](https://foxglovesecurity.com/2015/11/06/what-is-server-side-request-forgery-ssrf/)
+- [A New Era Of SSRF - Black Hat](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)
+
 ## Environment Setup
 
 Start the WebLogic server with the following command:
