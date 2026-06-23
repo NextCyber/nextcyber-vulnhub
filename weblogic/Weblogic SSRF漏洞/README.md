@@ -28,7 +28,6 @@ docker compose up -d
 
 服务启动后，访问`http://your-ip:7001/uddiexplorer/`即可查看UDDI Explorer应用，无需登录认证。
 
-![docker容器状态](https://static.nextcyber.cn/attachments/images/course/task/33359e9400d945a686263c1e75730555.png)
 
 ## 漏洞复现
 
@@ -47,11 +46,11 @@ Connection: close
 
 当访问一个可用端口时，会收到一个带有状态码的错误响应。如果访问的是非HTTP协议，则会返回"did not have a valid SOAP content-type"错误。
 
-![HTTP响应](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
+![docker容器状态](https://static.nextcyber.cn/attachments/images/course/task/33359e9400d945a686263c1e75730555.png)
 
 当访问一个不存在的端口时，响应会显示"could not connect over HTTP to server"。
 
-![HTTP响应](https://static.nextcyber.cn/attachments/images/course/task/43e7b882ae8a4743894badbe214f1c0f.png)
+![HTTP响应](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
 
 通过分析这些不同的错误信息，我们可以有效地探测内网状态。
 
@@ -61,7 +60,7 @@ WebLogic的SSRF漏洞有一个显著特点：尽管是GET请求，我们可以�
 
 首先，我们扫描内网中的Redis服务器（Docker网络通常使用172.*网段），发现`172.18.0.2:6379`可以访问：
 
-![Redis服务扫描](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
+![HTTP响应](https://static.nextcyber.cn/attachments/images/course/task/43e7b882ae8a4743894badbe214f1c0f.png)
 
 然后，我们可以发送三条Redis命令，将shell脚本写入`/etc/crontab`：
 
@@ -88,6 +87,9 @@ Accept-Language: en
 User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
 Connection: close
 ```
+![Redis服务扫描](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
+
+成功获得反弹shell：
 
 ![反弹Shell](https://static.nextcyber.cn/attachments/images/course/task/332745253b0142e3b60726878e58304d.png)
 
