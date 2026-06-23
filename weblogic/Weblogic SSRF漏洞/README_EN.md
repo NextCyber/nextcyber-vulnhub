@@ -22,6 +22,8 @@ docker compose up -d
 
 After the service starts, access `http://your-ip:7001/uddiexplorer/` to view the UDDI Explorer application. No authentication is required.
 
+![Docker Container Status](https://static.nextcyber.cn/attachments/images/course/task/33359e9400d945a686263c1e75730555.png)
+
 ## Vulnerability Reproduction
 
 The SSRF vulnerability exists in the `SearchPublicRegistries.jsp` page. We can use Burp Suite to send requests to `http://your-ip:7001/uddiexplorer/SearchPublicRegistries.jsp` to test this vulnerability.
@@ -39,11 +41,11 @@ Connection: close
 
 When accessing an available port, you will receive an error response with a status code. If accessing a non-HTTP protocol, it will return "did not have a valid SOAP content-type" error.
 
-![Access Available Port](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
+![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
 
 When accessing a non-existent port, the response will show "could not connect over HTTP to server".
 
-![Access Non-existent Port](https://static.nextcyber.cn/attachments/images/course/task/43e7b882ae8a4743894badbe214f1c0f.png)
+![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/43e7b882ae8a4743894badbe214f1c0f.png)
 
 By analyzing these different error messages, we can effectively probe the internal network status.
 
@@ -53,7 +55,7 @@ A notable feature of WebLogic's SSRF vulnerability is that despite being a GET r
 
 First, scan for Redis servers in the internal network (Docker networks typically use the 172.* subnet) and find that `172.18.0.2:6379` is accessible:
 
-![Discover Redis Service](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
+![Redis Service Scan](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
 
 Then, we can send three Redis commands to write a shell script to `/etc/crontab`:
 
@@ -81,11 +83,7 @@ User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Tride
 Connection: close
 ```
 
-![Send Redis Commands](https://static.nextcyber.cn/attachments/images/course/task/332745253b0142e3b60726878e58304d.png)
-
-Successfully obtain a reverse shell:
-
-![Reverse Shell Success](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
+![Reverse Shell](https://static.nextcyber.cn/attachments/images/course/task/332745253b0142e3b60726878e58304d.png)
 
 Note that the exploitable cron locations include:
 
