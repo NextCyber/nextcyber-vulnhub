@@ -12,6 +12,12 @@
 
 `Oracle WebLogic Server`是一个基于Java的企业级应用服务器。在WebLogic的UDDI Explorer应用中存在一个服务器端请求伪造（SSRF）漏洞，攻击者可以通过该漏洞发送任意HTTP请求，进而可能导致内网探测或攻击内网中的脆弱服务，如Redis等。
 
+## 参考链接
+
+- [VulHub - Weblogic SSRF](https://github.com/vulhub/vulhub/tree/master/weblogic/ssrf)
+- [What is Server-Side Request Forgery (SSRF)?](https://foxglovesecurity.com/2015/11/06/what-is-server-side-request-forgery-ssrf/)
+- [A New Era Of SSRF - Black Hat](https://www.blackhat.com/docs/us-17/thursday/us-17-Tsai-A-New-Era-Of-SSRF-Exploiting-URL-Parser-In-Trending-Programming-Languages.pdf)
+
 ## 环境搭建
 
 执行如下命令启动WebLogic服务器：
