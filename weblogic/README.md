@@ -1,6 +1,6 @@
 # Weblogic 漏洞复现合集
 
-Weblogic 是 Oracle 公司开发的一款 Java EE 应用服务器，广泛用于企业级 Web应用的部署。本目录收录了与 Weblogic 相关的经典高危漏洞复现文档，涵盖 XMLDecoder 反序列化、SSRF、任意文件上传、远程代码执行等多种漏洞类型。
+Weblogic 是 Oracle 公司开发的一款 Java EE 应用服务器，广泛用于企业级 Web应用的部署。本目录收录了与 Weblogic 相关的经典高危漏洞复现文档，涵盖 XMLDecoder 反序列化、SSRF、任意文件上传、弱口令利用、任意文件读取、远程代码执行等多种漏洞类型。
 
 ---
 
@@ -14,6 +14,7 @@ Weblogic 是 Oracle 公司开发的一款 Java EE 应用服务器，广泛用于
 | CVE-2020-14882 | 管理控制台未授权远程命令执行漏洞 | Weblogic 10.3.6.0 等 | ⭐⭐ | [查看](./CVE-2020-14882/README.md) |
 | CVE-2023-21839 | 未授权远程代码执行漏洞 | Weblogic 12.2.1.3.0 等 | ⭐⭐ | [查看](./CVE-2023-21839/README.md) |
 | Weblogic SSRF漏洞 | UDDI Explorer SSRF漏洞 | Oracle WebLogic Server | ⭐⭐ | [查看](./UDDI-Explorer-SSRF/README.md) |
+| 多漏洞组合 | 弱口令 + 任意文件读取 + RCE | Weblogic 10.3.6 | ⭐⭐ | [查看](./Weblogic-弱口令-任意文件读取-远程代码执行/README.md) |
 
 ---
 
