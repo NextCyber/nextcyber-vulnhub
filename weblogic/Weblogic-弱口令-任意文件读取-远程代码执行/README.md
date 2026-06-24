@@ -10,7 +10,7 @@
 | **危险等级** | 🔴 高危 |
 | **默认端口** | 7001 |
 
----
+
 
 ## 漏洞概述
 
@@ -18,7 +18,7 @@ Oracle Weblogic Server 是一个基于 Java 的企业级应用服务器。
 
 本环境模拟了一个真实的 Weblogic 环境，包含两个漏洞：后台管理控制台存在弱口令，以及前台存在任意文件读取漏洞。通过这两个漏洞，我们可以演示对 Weblogic 服务器的常见渗透测试场景。
 
----
+
 
 ## 环境搭建
 
@@ -30,7 +30,7 @@ docker compose up -d
 
 环境启动后，访问 `http://your-ip:7001/console` 进入 Weblogic 管理控制台。
 
----
+
 
 ## 漏洞复现
 
@@ -103,7 +103,7 @@ Weblogic 的密码使用 AES 加密（老版本使用 3DES）。由于这是对�
 
 ![成功访问 WebShell](https://static.nextcyber.cn/attachments/images/course/task/9636e6dca8a84e99b317bfeb01ac3b52.png)
 
----
+
 
 ## 靶场练习
 
