@@ -10,7 +10,7 @@
 | **Severity** | 🔴 High |
 | **Default Port** | 7001 |
 
----
+
 
 ## Vulnerability Overview
 
@@ -18,7 +18,7 @@ Oracle Weblogic Server is a Java-based enterprise application server.
 
 This environment simulates a real Weblogic environment containing two vulnerabilities: a weak password in the admin console and an arbitrary file read vulnerability in the frontend. Through these two vulnerabilities, we can demonstrate common penetration testing scenarios on Weblogic servers.
 
----
+
 
 ## Environment Setup
 
@@ -30,7 +30,7 @@ docker compose up -d
 
 After the environment starts, access `http://your-ip:7001/console` to enter the Weblogic Admin Console.
 
----
+
 
 ## Vulnerability Reproduction
 
@@ -103,7 +103,7 @@ Successfully accessing the webshell:
 
 ![Successfully Access WebShell](https://static.nextcyber.cn/attachments/images/course/task/9636e6dca8a84e99b317bfeb01ac3b52.png)
 
----
+
 
 ## Practice Lab
 
