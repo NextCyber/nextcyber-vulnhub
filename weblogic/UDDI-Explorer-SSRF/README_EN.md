@@ -28,7 +28,6 @@ docker compose up -d
 
 After the service starts, access `http://your-ip:7001/uddiexplorer/` to view the UDDI Explorer application. No authentication is required.
 
-![Docker Container Status](https://static.nextcyber.cn/attachments/images/course/task/33359e9400d945a686263c1e75730555.png)
 
 ## Vulnerability Reproduction
 
@@ -47,7 +46,7 @@ Connection: close
 
 When accessing an available port, you will receive an error response with a status code. If accessing a non-HTTP protocol, it will return "did not have a valid SOAP content-type" error.
 
-![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
+![Docker Container Status](https://static.nextcyber.cn/attachments/images/course/task/33359e9400d945a686263c1e75730555.png)
 
 When accessing a non-existent port, the response will show "could not connect over HTTP to server".
 
@@ -61,7 +60,7 @@ A notable feature of WebLogic's SSRF vulnerability is that despite being a GET r
 
 First, scan for Redis servers in the internal network (Docker networks typically use the 172.* subnet) and find that `172.18.0.2:6379` is accessible:
 
-![Redis Service Scan](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
+![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
 
 Then, we can send three Redis commands to write a shell script to `/etc/crontab`:
 
@@ -88,6 +87,10 @@ Accept-Language: en
 User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)
 Connection: close
 ```
+
+![Redis Service Scan](https://static.nextcyber.cn/attachments/images/course/task/47c04bf794574eb59da746b89c783644.png)
+
+Successfully obtaining the `shell`.
 
 ![Reverse Shell](https://static.nextcyber.cn/attachments/images/course/task/332745253b0142e3b60726878e58304d.png)
 
