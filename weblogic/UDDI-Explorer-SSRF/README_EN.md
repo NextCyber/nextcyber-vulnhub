@@ -50,7 +50,7 @@ When accessing an available port, you will receive an error response with a stat
 
 When accessing a non-existent port, the response will show "could not connect over HTTP to server".
 
-![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/43e7b882ae8a4743894badbe214f1c0f.png)
+![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
 
 By analyzing these different error messages, we can effectively probe the internal network status.
 
@@ -60,7 +60,7 @@ A notable feature of WebLogic's SSRF vulnerability is that despite being a GET r
 
 First, scan for Redis servers in the internal network (Docker networks typically use the 172.* subnet) and find that `172.18.0.2:6379` is accessible:
 
-![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/1562b5d8e42449aa9b58b913bcf682ba.png)
+![HTTP Response](https://static.nextcyber.cn/attachments/images/course/task/43e7b882ae8a4743894badbe214f1c0f.png)
 
 Then, we can send three Redis commands to write a shell script to `/etc/crontab`:
 
